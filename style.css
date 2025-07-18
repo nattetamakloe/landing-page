@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+}
+.container {
+    background-color: #1F2937;
+    height: 30vh;
+}
+
+.header {
+
+}
+
+.hero {
+
+}
+
+.info {
+    height: 20vh;
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 20vh;
+    
+}
+
+.signup {
+    height: 20vh;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 10vh;
+}
