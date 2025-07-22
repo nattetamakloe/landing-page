@@ -52,9 +52,49 @@ ul {
 }
 
 .hero {
-    border-style: solid;
-    border-width: 1px;
     display: flex;
     justify-content: space-between;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-btn {
+    width: 100px;
+    background: #3882f6;
+    border-radius: 8px;
+    height: 8px;
+    color: #e5e7eb;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    
+    
 }
 
