@@ -4,9 +4,32 @@ body {
 .container {
     background-color: #1F2937;
     height: 30vh;
+    display: flex;
+    flex: 1;
+    font-family: Roboto;
 }
 
 .header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
 
 }
 
