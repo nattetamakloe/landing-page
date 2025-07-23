@@ -103,6 +103,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .info-header {
@@ -137,6 +138,21 @@ ul {
     text-align: center;
     color: gray;
     font-size: 15px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e5e7eb;
+    color: #1F2937;    
+}
+
+.quote {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
 }
 
 
