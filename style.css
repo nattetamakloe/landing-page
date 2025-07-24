@@ -205,6 +205,17 @@ ul {
     
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-right: 200px;
+    padding-left: 200px;
+    color: #f9faf8;
+    padding: 30px 0;
+}
 
 
 
