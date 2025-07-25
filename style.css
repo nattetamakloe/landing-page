@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: Roboto;
 }
+
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 /* Background for hero and footer */
@@ -21,18 +21,18 @@ body {
     flex: 3;
 
 }
-.information {
-    flex: 2;
 
-}
+.information,
 .quote {
     flex: 2;
 
 }
+
 .call2action {
     flex: 2.5;
 
 }
+
 .footer {
     flex: 0.5;
 
@@ -41,6 +41,7 @@ body {
 .quote {
     background: #e5e7eb;
 }
+
 /* * 
 
 body {
