@@ -5,15 +5,37 @@
     font-family: Roboto;
 }
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100%;
     border: 2px solid red;
 }
 
+/* Background for hero and footer */
 .hero,
 .footer {
     background: #1f2937;
+}
+
+.hero {
+    flex: 3;
+
+}
+.information {
+    flex: 2;
+
+}
+.quote {
+    flex: 2;
+
+}
+.call2action {
+    flex: 2.5;
+
+}
+.footer {
+    flex: 0.5;
+
 }
 
 .quote {
