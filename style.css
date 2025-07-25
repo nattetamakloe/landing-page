@@ -9,24 +9,103 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 10% 10;
 }
 
 /* Background for hero and footer */
-.hero,
+.hero-header-section,
 .footer {
     background: #1f2937;
 }
 
-.hero {
+.hero-header-section {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    flex-grow: 1;
+    padding: 0 10%;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+    flex: 1;
+}
+
+.hero-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-btn {
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
 
 }
+
+.image-placeholder {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background: rgba(255, 255, 255, 0.4);
+        border: 2px solid red;
+
+    
+}
+
 
 .information,
 .quote {
     flex: 2;
 
 }
+
+
+
+
 
 .call2action {
     flex: 2.5;
