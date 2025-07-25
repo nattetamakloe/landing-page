@@ -1,8 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-family: Roboto;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.hero,
+.footer {
+    background: #1f2937;
+}
+
+.quote {
+    background: #e5e7eb;
+}
+/* * 
 
 body {
     display: flex;
@@ -218,4 +235,4 @@ ul {
 }
 
 
-
+ */
